@@ -1,0 +1,107 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor-principal{
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contenedor-izquierdo{
+    background-color: gainsboro;
+    max-width: 25%;
+    max-height: 100vh;
+}
+
+.contenedor-perfil{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.redes-sociales{
+    padding: 1em;
+}
+
+
+.menu a , .redes-sociales{
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.menu a:hover, .redes-sociales:hover{
+    text-decoration: underline black;
+    text-shadow: 3px 3px 3px ghostwhite;
+}
+
+.contenedor-link{
+    max-width: 65%;
+    max-height: 100%;
+}
+
+.contenedor-link iframe {
+    width: 75vw;
+    height: 100vh;
+    border: none;
+    margin: 0%;
+    
+}
+
+.contenedor-derecha img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#div-oculto { 
+    display: none;
+}
+
+#div-oculto a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3em;
+    margin: 1px;
+}
+
+#div-oculto button{
+    border: none;
+    background: none;
+    color: crimson;
+    margin-top: 10px;
+}
+
+.copyright{
+    background-color: rgba(190, 190, 190, 0.822);
+    padding: 0.5em;
+}
+
+
+.typing-demo{
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    width: 22ch;
+    animation: typing 3s steps(22), blink .5s forwards infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

@@ -1,0 +1,30 @@
+body{ 
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right top, #6482a1, #5f7b9e, #5a749b, #576d98, #556694);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #34495E;
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: underline;
+}
+
+h2 {
+    color: ghostwhite;
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: underline;
+}
+
+p {
+    color: ghostwhite;
+    text-shadow: 2px 2px 3px black;
+}
+
+.contenedor {
+ 
+    box-sizing: content-box;
+}
